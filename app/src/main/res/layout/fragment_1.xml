@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec quam tempus mi tincidunt ullamcorper. Proin eu fringilla leo. Nunc posuere tincidunt varius. Cras rhoncus ex sit amet libero laoreet, vitae mattis leo vestibulum. Nulla id sem quis urna sagittis elementum. Aliquam feugiat vulputate turpis quis semper. Vestibulum nec velit id risus euismod consequat. Aliquam congue nibh non augue molestie, ac auctor lorem eleifend. Fusce cursus odio at eros convallis, sit amet interdum tortor pretium. Phasellus pellentesque, dolor vitae dictum blandit, metus nibh dictum justo, ut rutrum erat urna a metus. Proin et felis vitae mi dignissim ultrices.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ac turpis tempus, finibus nulla et, commodo lacus. Phasellus vehicula purus in pharetra ornare. Nulla a libero cursus, rutrum augue vel, laoreet tortor. Vestibulum id efficitur felis. Mauris dignissim ex non tellus posuere placerat. Nam sit amet dolor vel neque malesuada sodales non quis erat. Aenean eleifend eleifend ante et eleifend. Nunc vitae ultricies augue. Pellentesque dignissim, mauris id porta viverra, nisl sapien egestas tortor, eu vehicula ex ante a diam. Donec eget sem a nunc tincidunt efficitur.
+
+Duis nibh libero, dapibus a metus vel, interdum suscipit mi. Maecenas sodales, nibh eget aliquam gravida, sem risus laoreet ante, ut pharetra nisi elit in orci. Integer imperdiet, felis at congue efficitur, enim elit consequat dui, ut laoreet purus neque at ex. Nulla dictum dolor aliquam, bibendum turpis quis, egestas odio. Cras tempus odio enim, eget semper odio posuere id. Nunc dapibus enim ac massa volutpat suscipit. Cras sed sapien vitae urna sodales viverra at ut urna. Aliquam erat volutpat. Duis vulputate, dolor mollis scelerisque dignissim, justo odio dapibus lacus, ut pharetra erat ante quis lacus. Nunc elit velit, hendrerit nec tempus vel, iaculis pharetra massa.
+
+Curabitur sit amet hendrerit ex. Ut congue, ex a hendrerit aliquam, erat ex accumsan dui, vitae euismod arcu metus ut nisl. Nulla ullamcorper ex non dictum ultricies. Ut leo elit, gravida maximus pellentesque nec, finibus nec lorem. Vestibulum ac mi magna. Donec bibendum, eros non maximus fermentum, tellus lorem porta nisi, non sodales tortor dui ut erat. Phasellus id elit malesuada, tristique orci eleifend, ultricies mauris. Proin egestas accumsan mi, sit amet semper est. Mauris a mollis erat. Morbi molestie metus eget nulla convallis, quis pretium urna venenatis. Pellentesque vel velit blandit, interdum quam et, elementum mauris. Donec quis sapien molestie, blandit magna nec, gravida erat. In auctor risus non mi viverra tempor. Integer gravida, magna sed condimentum efficitur, mi augue elementum orci, vel laoreet libero magna quis lectus. Phasellus ultrices a mauris sed venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Quisque nec elementum felis. Donec nec dignissim lorem. Suspendisse ante neque, condimentum sit amet gravida eu, ultricies sit amet risus. Quisque vitae leo a lectus blandit venenatis. Proin a tellus sed nulla volutpat ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut augue porta, pretium nunc non, bibendum lacus. Proin non scelerisque felis, vitae ultrices urna."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

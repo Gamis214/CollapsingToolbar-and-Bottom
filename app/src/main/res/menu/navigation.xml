@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Opc 1"/>
+        <!--<item
+            android:id="@+id/navigation_list"
+            android:icon="@drawable/nav_list_selector"
+            android:title="@string/nav_list"/>-->
+        <item
+            android:id="@+id/navigation_pedidos"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Opc 2"/>
+        <item
+            android:id="@+id/navigation_search"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Opc 3"/>
+        <item
+            android:id="@+id/navigation_notification"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Opc 4"/>
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Opc 5"/>
+    </group>
+
+</menu>
